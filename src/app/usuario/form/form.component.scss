@@ -1,0 +1,44 @@
+.form-group {
+  margin-bottom: 10px;
+}
+
+.inline-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group {
+  flex: 200;
+  margin-right: 20px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-input .toggle-password i {
+  font-size: 18px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
